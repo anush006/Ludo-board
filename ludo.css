@@ -6,212 +6,148 @@
     height: 500px;
     background-color: rgb(72, 73, 75);
 }
-#container > div:not(#centerbox){
-    height: 175px;
-    width: 175px;
+#container > div:not(#centerboxout){
+    height: 200px;
+    width: 200px;
     display: inline-block;
     margin: none;
     padding: 0px;
     position: relative;
+    border: 2px solid black;
 }
 #redbox{
     background-color: rgb(252, 5, 5);
+    top: 0px;
 }
 #greenbox{
     background-color: rgb(12, 245, 12);
-    left: 146px;
+    top: 0px;
+    left: 96px;
 }
 #yellowbox{
     background-color: yellow;
-    top: 146px;
-    left: 146px;
+    top: 96px;
+    left: 96px;
 }
 #bluebox{
     background-color: rgb(52, 175, 216);
-    top: 146px;
+    top: 96px;
 }
-#centerbox{
-    height: 150px;
-    width: 150px;
+#centerboxout{
+    height: 100px;
+    width: 100px;
     background-color: brown;
     display: inline-block;
     position: relative;
-    bottom: 183.5px;
-    left: 175px;
-    border-top: 75px solid rgb(12, 245, 12);
-    border-left: 75px solid rgb(252, 5, 5);
-    border-right: 75px solid yellow;
-    border-bottom: 75px solid rgb(52, 175, 216);
-    
+    left: 200px;
+    bottom: 208px;
+}
+#centerboxin{
+    display: inline-block;
+    border-top: 50px solid rgb(12, 245, 12);
+    border-left: 50px solid rgb(252, 5, 5);
+    border-right: 50px solid yellow;
+    border-bottom: 50px solid rgb(52, 175, 216);
 }
 
 #redinner,#blueinner,#yellowinner,#greeninner{
     background-color: white;
-    height: 122.5px;
-    width: 122.5px;
-    position: absolute;
-    top: 26.25px;
-    left: 24px;
-}
-.redcircle{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(252, 5, 5);
-    display: inline-block;
-}
-#rrighttop{
-    position: absolute;
-    left: 70px ;
-    top: 10px;
-}
-#rrightbottom{
-    position: absolute;
-    left: 75px;
-    top: 75px;
-}
-#rleftbottom{
-    position: absolute;
-    top: 75px;
-    left: 10px;
-}
-#rlefttop{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.greencircle{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(12, 245, 12);
-    display: inline-block;
-}
-#grighttop{
-    position: absolute;
-    left: 70px ;
-    top: 10px;
-}
-#grightbottom{
-    position: absolute;
-    left: 75px;
-    top: 75px;
-}
-#gleftbottom{
-    position: absolute;
-    top: 75px;
-    left: 10px;
-}
-#glefttop{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.bluecircle{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(52, 175, 216);
-    display: inline-block;
-}
-#brighttop{
-    position: absolute;
-    left: 70px ;
-    top: 10px;
-}
-#brightbottom{
-    position: absolute;
-    left: 75px;
-    top: 75px;
-}
-#bleftbottom{
-    position: absolute;
-    top: 75px;
-    left: 10px;
-}
-#blefttop{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.yellowcircle{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: yellow;
-    display: inline-block;
-}
-#yrighttop{
-    position: absolute;
-    left: 70px ;
-    top: 10px;
-}
-#yrightbottom{
-    position: absolute;
-    left: 75px;
-    top: 75px;
-}
-#yleftbottom{
-    position: absolute;
-    top: 75px;
-    left: 10px;
-}
-#ylefttop{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-#redtable td:not(.rsquare),#yellowtable td:not(.ysquare){
-    height: 45px;
-    width: 100px;
-    background-color: rgb(253, 253, 253);
-}
-#greentable td:not(.gsquare),#bluetable td:not(.bsquare){
-    height: 26px;
-    width: 50px;
-    background-color: rgb(253, 253, 253);
-}
-
-#redtable{
-    width: 175px;
     height: 150px;
+    width: 150px;
     position: absolute;
-    top: 183.5px;
-    background-color: black;
+    top: 22px;
+    left: 22px;
+    border: 2px solid black;
 }
-.rsquare{
+.circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.righttop{
+    position: absolute;
+    left: 86px ;
+    top: 15px;
+}
+.rightbottom{
+    position: absolute;
+    left: 86px;
+    top: 80px;
+}
+.leftbottom{
+    position: absolute;
+    top: 80px;
+    left: 18px;
+}
+.lefttop{
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+#redinner div{
     background-color: rgb(252, 5, 5);
+}
+#greeninner div{
+    background-color: rgb(12, 245, 12);
+}
+#blueinner div{
+    background-color: rgb(52, 175, 216);
+}
+#yellowinner div{
+    background-color: yellow;
+}
+#redtable td,#yellowtable td{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(255, 255, 255);
+}
+#greentable td,#bluetable td{
+    height: 30px;
+    width: 38px;
+    background-color: rgb(253, 253, 253);
+}
+#redtable .rsquare{
+    background-color: rgb(252, 5, 5);
+}
+#greentable .gsquare{
+    background-color: rgb(12, 245, 12);
+}
+#bluetable .bsquare{
+    background-color: rgb(52, 175, 216);
+}
+#yellowtable .ysquare{
+    background-color: yellow;
+}
+#redtable{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 206px;
+    background-color: black;
 }
 #greentable{
-    width: 150px;
-    height: 175px;
+    width: 103.5px;
+    height: 200px;
     position: absolute;
     top: 7.5px;
-    left: 182.5px;
+    left: 206px;
     background-color: black;
-}
-.gsquare{
-    background-color: rgb(12, 245, 12);
 }
 #bluetable{
-    width: 150px;
-    height: 175px;
+    width: 103.5px;
+    height: 200px;
     position: absolute;
-    left: 182.5px;
-    bottom: 139px;
+    left: 206px;
+    bottom: 138.8px;
     background-color: black;
-}
-.bsquare{
-    background-color: rgb(52, 175, 216);
 }
 #yellowtable{
-    width: 175px;
-    height: 150px;
-    left: 332px;
+    width: 200px;
+    height: 100px;
+    left: 308px;
     position: absolute;
-    top: 183.5px;
+    top: 206px;
     background-color: black;
-}
-.ysquare{
-    background-color: yellow;
 }
