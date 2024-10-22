@@ -38,6 +38,10 @@
     position: relative;
     bottom: 183.5px;
     left: 175px;
+    border-top: 75px solid rgb(12, 245, 12);
+    border-left: 75px solid rgb(252, 5, 5);
+    border-right: 75px solid yellow;
+    border-bottom: 75px solid rgb(52, 175, 216);
     
 }
 
@@ -157,7 +161,7 @@
     top: 10px;
     left: 10px;
 }
-#redtable td:not(.rsquare),#yellowtable:not(.ysquare) td{
+#redtable td:not(.rsquare),#yellowtable td:not(.ysquare){
     height: 45px;
     width: 100px;
     background-color: rgb(253, 253, 253);
@@ -190,10 +194,11 @@
     background-color: rgb(12, 245, 12);
 }
 #bluetable{
-    width: 175px;
-    height: 150px;
+    width: 150px;
+    height: 175px;
     position: absolute;
-    top: 183.5px;
+    left: 182.5px;
+    bottom: 139px;
     background-color: black;
 }
 .bsquare{
@@ -202,6 +207,7 @@
 #yellowtable{
     width: 175px;
     height: 150px;
+    left: 332px;
     position: absolute;
     top: 183.5px;
     background-color: black;
