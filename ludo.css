@@ -6,7 +6,7 @@
     height: 500px;
     background-color: rgb(72, 73, 75);
 }
-#container > div:not(#centerboxout){
+#container > div:not(#centerbox){
     height: 200px;
     width: 200px;
     display: inline-block;
@@ -33,23 +33,19 @@
     background-color: rgb(52, 175, 216);
     top: 96px;
 }
-#centerboxout{
+#centerbox{
     height: 100px;
     width: 100px;
-    background-color: brown;
     display: inline-block;
     position: relative;
     left: 200px;
     bottom: 208px;
-}
-#centerboxin{
-    display: inline-block;
     border-top: 50px solid rgb(12, 245, 12);
     border-left: 50px solid rgb(252, 5, 5);
     border-right: 50px solid yellow;
     border-bottom: 50px solid rgb(52, 175, 216);
+    background-color: black;
 }
-
 #redinner,#blueinner,#yellowinner,#greeninner{
     background-color: white;
     height: 150px;
